@@ -12,6 +12,7 @@ gemspec
 
 # To use a debugger
 group :development, :test do
-  gem "byebug"
-  gem "pry-byebug"
+  gem "byebug", "~> 9.0"
+  gem "pry-byebug", "~> 3.4"
+  gem "rspec-rails", "~> 3.5"
 end
